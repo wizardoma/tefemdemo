@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #1B2131 url(https://staging-tradersync.kinsta.cloud/wp-content/uploads/2019/08/bkinternalpage.png) top center no-repeat;
+    background-image: url(https://staging-tradersync.kinsta.cloud/wp-content/uploads/2019/08/bkinternalpage.png);
+    font-family: 'Poppins',sans-serif;
+}
+
+div.one {
+    padding: 50px;
+
+}
+
+.one > h3 {
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.categories .category {
+    background-color: #131313;
+    padding: 70px 30px 100px 30px;
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    color: #BEBEBE;
+}
+
+
+.category .image {
+   text-align: center;
+}
+
+.category .heading {
+    margin: 20px 0;
+}
+
+.heading h3 {
+    color: grey;
+    margin: 8px 0;
+}
+
+.category p {
+    font-size: large;
+    line-height: 1.5;
+}
