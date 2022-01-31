@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+div.parent {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+}
+
+
+div.parent > div {
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+    height: 200px;
+}
+
+div.parent > div:nth-child(1) {
+    display: none;
+}
+
+
+div.parent div.child2 {
+   position: absolute;
+   bottom: -140px;
+   font-size: 40px;
+   font-weight: bold;
+   color: purple;
+  
+   left: 10%;
+   border-radius: 50%;
+   border: 10px solid white
+
+
+}
+
+div.parent > div.child2:hover {
+    background-color: orange;
+    border: none;
+}
+
+div.parent div.child3 {
+    position: absolute;
+    width: 100px;
+   
+    background-color: green;
+    height: 100px;
+    bottom: -40px;
+    left: 10%;
+    border-radius: 50%;
+    border: 10px solid white
+}

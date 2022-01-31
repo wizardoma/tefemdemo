@@ -1,0 +1,21 @@
+div.div {
+    background-color: blue;
+}
+
+div.div h2{
+    color: red;
+    display: none;
+}
+
+div.div h2 {
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+div.div > span {
+    float: right;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.parent {
+    display: flex;
+    flex-flow: row nowrap;
+   align-items: center;
+    height: 500px;
+    width: 1000px;
+   
+    background-color: red;
+}
+
+div.parent div {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    
+    color: white;
+}
+
+div.parent div:nth-child(1) {
+   flex-basis: 400px;
+}
+div.parent div:nth-child(2) {
+   
+}
+
+div.parent div:nth-child(3) {
+   
+}

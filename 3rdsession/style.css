@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div.bg {
+    width: 600px;
+    background-color: black;
+    border: 5px solid red;
+    padding: 20px;
+    
+
+
+}
+
+div.bg div {
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 10px solid brown;
+
+    overflow: hidden;
+
+    width: 100px;
+    background-color: white;
+
+}
+
+div.bg div#first {
+    padding: 10px;
+    border: 10px solid brown;
+  
+    overflow: hidden;
+}
+
